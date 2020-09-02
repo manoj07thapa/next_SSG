@@ -1,15 +1,24 @@
 {
-  "name": "bruno-ssg8",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "9.5.2",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
-  }
+	"name": "bruno-ssg8",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "node ./test-migration.js && next dev",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"@material-ui/core": "^4.11.0",
+		"@material-ui/icons": "^4.9.1",
+		"next": "9.5.2",
+		"react": "16.13.1",
+		"react-dom": "16.13.1",
+		"sqlite": "^4.0.14",
+		"sqlite3": "^5.0.0"
+	},
+	"devDependencies": {
+		"@types/node": "^14.6.2",
+		"@types/react": "^16.9.48",
+		"typescript": "^4.0.2"
+	}
 }
